@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-   <main>DMENS GIFT SHOP</main> 
+   <div>DMENS GIFT SHOP</div> 
   );
 }
