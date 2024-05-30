@@ -25,7 +25,12 @@ const Footer = () => {
             </FooterList>
             <div className="w-full md:w-1/3 mb-6 md:mb-0">
               <h3 className="text-base font-bold mb-2">About Us</h3>
+              <p className="mb-2">Score Style Goals with Dmens: Your Ultimate Jersey Destination!</p>
+              <p>&copy; {new Date().getFullYear()} DMENS. All rights reserved</p>
             </div>
+            <FooterList>
+              <h3 className="text-base font-bold mb-2">Follow Us</h3>
+            </FooterList>
           </div>
         </Container>
         </footer>
