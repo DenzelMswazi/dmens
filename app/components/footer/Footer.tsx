@@ -2,7 +2,7 @@ import Link from "next/link";
 import Container from "../Container";
 import FooterList from "./FooterList";
 import { MdFacebook } from "react-icons/md";
-import { AiFillInstagram, AiFillTikTok, AiFillX } from "react-icons/ai";
+import { AiFillInstagram, AiFillTikTok, AiFillTwitterCircle } from "react-icons/ai";
 
 const Footer = () => {
     return (
@@ -37,7 +37,7 @@ const Footer = () => {
                   <MdFacebook size={24}/>
                 </Link>
                 <Link href={"#"}>
-                  <AiFillX size={24}/>
+                  <AiFillTwitterCircle size={24}/>
                 </Link>
                 <Link href={"#"}>
                   <AiFillInstagram size={24}/>
