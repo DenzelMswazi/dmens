@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Container from "../Container";
 import FooterList from "./FooterList";
+import { MdFacebook } from "react-icons/md";
+import { AiFillInstagram, AiFillTikTok, AiFillX } from "react-icons/ai";
 
 const Footer = () => {
     return (
@@ -30,6 +32,20 @@ const Footer = () => {
             </div>
             <FooterList>
               <h3 className="text-base font-bold mb-2">Follow Us</h3>
+              <div className="flex gap-2">
+                <Link href={"#"}>
+                  <MdFacebook size={24}/>
+                </Link>
+                <Link href={"#"}>
+                  <AiFillX size={24}/>
+                </Link>
+                <Link href={"#"}>
+                  <AiFillInstagram size={24}/>
+                </Link>
+                <Link href={"#"}>
+                  <AiFillTikTok size={24}/>
+                </Link>
+              </div>
             </FooterList>
           </div>
         </Container>
