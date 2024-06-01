@@ -7,7 +7,7 @@ const HomeBanner = () => {
             <div className="mb-8 md:mb-0 text-center">
                 <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Game Ready!!</h1>
                 <p className="text-lg md:text-xl text-black mb-2">Topnotch quality for best prices</p>
-                <p className="text-2xl md:text-5xl text-yellow-500 font-bold">GET FREE BADGE</p>
+                <p className="text-2xl md:text-5xl text-yellow-500 font-bold">GET A FREE BADGE</p>
             </div>
             <div className="w-1/3 relative hidden md:block" style={{ aspectRatio: '16/9'}}>
                 <Image 
