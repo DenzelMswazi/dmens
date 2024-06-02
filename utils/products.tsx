@@ -1,6 +1,7 @@
 //I am changing the image links from firebase to amazon, firebase has issues with these direct links. Please remember to add the amazon link(that will show up at the error) instead of firebase at the cofig for it to work out.
 
 import { ImageResponse } from "next/server";
+import { GiBrandyBottle } from "react-icons/gi";
 import { MdDescription } from "react-icons/md";
 
 export const products = [
@@ -42,6 +43,24 @@ export const products = [
             colorCode: "#FF0000",
             image:
                  "/Arsenal.jpg",
+            },
+        ],
+        reviews: [],
+    },
+    {
+        id: "",
+        name: "Manchester City 2024/25 Home Jersey",
+        description: "",
+        price: 2000,
+        brand: "puma",
+        category: "Jersey",
+        inStock: true,
+        images: [
+            {
+            color: "Blue",
+            colorCode: "#0000FF",
+            image: 
+              "/manchester-city-24-25-home.jpg"
             },
         ],
         reviews: [],
