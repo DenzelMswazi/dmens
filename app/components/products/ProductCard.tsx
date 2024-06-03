@@ -1,5 +1,6 @@
 'use client';
 
+import { truncateText } from "@/utils/truncateText";
 import Image from "next/image";
 
 interface ProductCardProps {
@@ -18,8 +19,8 @@ const ProductCard:React.FC<ProductCardProps> = ({data}) => {
               alt={data.name}
               className="w-full h-full object-contain"/>
            </div>
-           <div>
-
+           <div className="mt-4">
+              {truncateText(data.name)}
            </div>
             <div></div>
             <div></div>
