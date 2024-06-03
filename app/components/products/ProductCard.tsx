@@ -23,7 +23,7 @@ const ProductCard:React.FC<ProductCardProps> = ({data}) => {
               {truncateText(data.name)}
            </div>
             <div></div>
-            <div></div>
+            <div>{data.reviews.length}</div>
             <div></div>
          </div>
         </div>
