@@ -105,4 +105,43 @@ export const products = [
           },
         ],
     },
+    {
+      id: "64a4e9e77e7299078334019f",
+      name: "Cadiz 2024-25 Home Jersey",
+      description: "The Cadiz 24-25 home kit was officially unveiled today. It is made by Adidas and will be worn in the 2024-2025 La Liga.",
+      price: 2000,
+      brand: "Adidas",
+      category: "Jersey",
+      inStock: true,
+      images: [
+          {
+          color: "Yellow",
+          colorCode: "#FFFF00",
+          image: 
+            "/cadiz-24-25-home.jpg"
+          },
+      ],
+      reviews: [
+        {
+          id: "6499a110efe4e4de451c7edc",
+          userId: "6475af156bad4917456e6e1e",
+          productId: "648437b38c44d52b9542e340",
+          rating: 5,
+          comment: "I love the new jersey, Great quality and fits perfectly.",
+          createdDate: "2024-09-01T00:00:00Z",
+          user: {
+            id: "6475af156bad4917456e6e1e",
+            name: "Denzel Mswazi",
+            email: "example@gmail.com",
+            emailVerified: true,
+            image: "",
+            hashedPassword: "null",
+            createdAt: "2024-09-01T00:00:00Z",
+            updatedAt: "2024-09-01T00:00:00Z",
+            role: "user",
+          },
+
+        },
+      ],
+  },
 ];
