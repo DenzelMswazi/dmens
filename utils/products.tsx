@@ -65,4 +65,22 @@ export const products = [
         ],
         reviews: [],
     },
+    {
+        id: "",
+        name: "Liverpool 2024-25 Home Jersey",
+        description: " Inspired by Rome 84, Nike officially launched the Liverpool 24-25 home shirt with a unique YNWA pattern.",
+        price: 2000,
+        brand: "Nike",
+        category: "Jersey",
+        inStock: true,
+        images: [
+            {
+            color: "Red",
+            colorCode: "#FF0000",
+            image: 
+              "/liverpool-home.jpg"
+            },
+        ],
+        reviews: [],
+    },
 ];
