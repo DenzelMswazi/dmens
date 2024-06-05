@@ -28,7 +28,7 @@ const ProductCard:React.FC<ProductCardProps> = ({data}) => {
               {truncateText(data.name)}
            </div>
             <div>
-                <Rating value={4} readOnly/>
+                <Rating value={productRating} readOnly/>
             </div>
             <div>{data.reviews.length} reviews</div>
             <div className="font-semibold">{formatPrice(data.price)}</div>
