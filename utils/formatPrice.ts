@@ -4,4 +4,4 @@ export const formatPrice = (amount: number) => {
             style: 'currency',
             currency: 'Ksh'
         }).format(amount)
-}
+};

@@ -2,6 +2,7 @@
 
 import { formatPrice } from "@/utils/formatPrice";
 import { truncateText } from "@/utils/truncateText";
+import { Rating } from "@mui/material";
 import Image from "next/image";
 
 interface ProductCardProps {
@@ -23,9 +24,11 @@ const ProductCard:React.FC<ProductCardProps> = ({data}) => {
            <div className="mt-4">
               {truncateText(data.name)}
            </div>
-            <div></div>
+            <div>
+                <Rating />
+            </div>
             <div>{data.reviews.length} reviews</div>
-            <div>{formatPrice(data.price)}</div>
+            <div className="font-semibold">{formatPrice(data.price)}</div>
          </div>
         </div>
     );
