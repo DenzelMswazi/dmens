@@ -1,3 +1,8 @@
+interface IPrams {
+    productid: string;
+
+}
+
 const Product = () => {
     return (
         <div>
