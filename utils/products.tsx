@@ -49,7 +49,7 @@ export const products = [
         reviews: [],
     },
     {
-        id: "",
+        id: "649d775128b6744f0f497040",
         name: "Manchester City 2024/25 Home Jersey",
         description: "",
         price: 2000,
@@ -64,7 +64,21 @@ export const products = [
               "/manchester-city-24-25-home.jpg"
             },
         ],
-        reviews: [],
+        reviews: [
+          {
+            id: "64a65a6158b470c6e06959ee",
+            userId: "6475af156bad4917456e6e1e",
+            productId: "649d775128b6744f0f497040",
+            rating: 4,
+            comment: "I love the new jersey, Great quality and fits perfectly.",
+            createdDate: "2024-09-01T00:00:00Z",
+            user: {
+              id: "6475af156bad4917456e6e1e",
+              name: "Denzel Mswazi",
+              email: "example@email.com",
+            },
+          }
+        ],
     },
     {
         id: "64a4ebe300900d44bb50628a",

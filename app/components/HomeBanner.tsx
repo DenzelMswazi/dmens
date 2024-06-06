@@ -15,6 +15,13 @@ const HomeBanner = () => {
                 layout="fill"
                 alt="Banner Image"
                  className="object-contain transform scale-150"/>
+                 <div className="w-1/3 hidden md:block" style={{ aspectRatio: '16/9'}}>
+                   <Image 
+                   src="/banner2.png"
+                   layout="fill"
+                   alt="Banner white image"
+                   className="pl-64 object-contain transform scale-150"/>
+                 </div>
             </div>
           </div>
         </div>
