@@ -3,7 +3,7 @@ interface IPrams {
 
 }
 
-const Product = () => {
+const Product = ({params} : {params: IPrams}) => {
     return (
         <div>
             Product page
