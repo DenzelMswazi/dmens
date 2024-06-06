@@ -1,3 +1,5 @@
+import { product } from "@/utils/product";
+
 interface IPrams {
     productid: string;
 
@@ -5,7 +7,7 @@ interface IPrams {
 
 const Product = ({params} : {params: IPrams}) => {
      console.log("params", params);
-
+    product 
 
     return (
         <div>
