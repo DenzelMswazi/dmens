@@ -2,7 +2,7 @@ interface ProductDetailsProps {
     product: any;
 }
 
-const ProductDetails:React.FR<ProductDetailsProps> = () => {
+const ProductDetails:React.FC<ProductDetailsProps> = () => {
     return (
         <div>
             <h1>Product Details</h1>
