@@ -1,13 +1,12 @@
 "use client";
 
-import { product } from "@/utils/product";
 import { Rating } from "@mui/material";
 
 interface ProductDetailsProps {
     product: any;
 }
 
-const ProductDetails:React.FC<ProductDetailsProps> = () => {
+const ProductDetails:React.FC<ProductDetailsProps> = ({ product }) => {
        
        const productRating = 
        product.reviews.reduce((acc: number, item: any) => 
@@ -21,7 +20,8 @@ const ProductDetails:React.FC<ProductDetailsProps> = () => {
            <div>
              <h2 className="text-3xl font-medium text-slate-700">{product.name}</h2>
              <div>
-                <Rating value={} readOnly/>
+                <Rating value={productRating} readOnly/>
+                <div>{product.reviews.length} reviews</div>
              </div>
            </div>
         </div>

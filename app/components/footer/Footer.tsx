@@ -29,7 +29,7 @@ const Footer = () => {
               <h3 className="text-base font-bold mb-2">About Us</h3>
               <p className="mb-2">Score Style Goals with Dmens: Your Ultimate Jersey Destination!</p>
               <p>&copy; {new Date().getFullYear()} DMENS. All rights reserved</p>
-              <p>Designed & Created by Denzel Mswazi</p>
+              <p>Powered by Denzel Mswazi</p>
             </div>
             <FooterList>
               <h3 className="text-base font-bold mb-2">Follow Us</h3>
