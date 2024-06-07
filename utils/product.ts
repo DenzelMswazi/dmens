@@ -1,6 +1,6 @@
 export const product = {
         id: "64a4e9e77e7299078334019f",
-        name: "Englang Euros 2024 Home Jersey",
+        name: "England Euros 2024 Home Jersey",
         description: "The Nike England Euro 2024 home shirt is a heavy change to the previous Nike England home shirts. The Nike England 2024 football shirt combines the country's classic white with a dark navy, plus maroon/light red detailing.",
         price: 2000,
         brand: "Nike",
