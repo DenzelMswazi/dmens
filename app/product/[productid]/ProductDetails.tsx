@@ -1,6 +1,7 @@
 "use client";
 
 import { product } from "@/utils/product";
+import { Rating } from "@mui/material";
 
 interface ProductDetailsProps {
     product: any;
@@ -12,6 +13,9 @@ const ProductDetails:React.FC<ProductDetailsProps> = () => {
            <div>Images</div>
            <div>
              <h2 className="text-3xl font-medium text-slate-700">{product.name}</h2>
+             <div>
+                <Rating value={} readOnly/>
+             </div>
            </div>
         </div>
     )
