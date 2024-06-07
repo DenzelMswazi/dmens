@@ -6,6 +6,10 @@ interface ProductDetailsProps {
     product: any;
 }
 
+const Horizontal = () => {
+    return <hr className="w-[30% my-2]"/>
+}
+
 const ProductDetails:React.FC<ProductDetailsProps> = ({ product }) => {
        
        const productRating = 
