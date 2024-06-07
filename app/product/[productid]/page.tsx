@@ -11,7 +11,7 @@ const Product = ({params} : {params: IPrams}) => {
      console.log("params", params);
 
     return (
-        <div>
+        <div className="p-8">
             <Container>
                 <ProductDetails />
             </Container>
