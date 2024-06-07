@@ -9,7 +9,10 @@ interface ProductDetailsProps {
 
 const ProductDetails:React.FC<ProductDetailsProps> = () => {
        
-       const productRating = product.reviews.map((review) => review.rating);
+       const productRating = 
+       product.reviews.reduce((acc: number, item: any) => 
+        item.rating + acc, 0) /
+        product.reviews.length;
 
 
     return (
