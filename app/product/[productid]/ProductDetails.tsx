@@ -23,7 +23,7 @@ const ProductDetails:React.FC<ProductDetailsProps> = ({ product }) => {
                 <Rating value={productRating} readOnly/>
                 <div>{product.reviews.length} reviews</div>
              </div>
-             <div>{product.description}</div>
+             <div className="text-justify">{product.description}</div>
            </div>
         </div>
     )
